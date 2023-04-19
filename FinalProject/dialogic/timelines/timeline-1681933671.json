@@ -5,13 +5,21 @@
 			"event_id": "dialogic_021"
 		},
 		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Assets/alarm_clock.wav",
+			"volume": -10
+		},
+		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "[Alarm Clock Sounds]"
 		},
 		{
-			"background": "",
+			"background": "res://Assets/Bedroom.jpg",
 			"event_id": "dialogic_021"
 		},
 		{
@@ -47,7 +55,7 @@
 			"text": "(Every day I wake up hoping that it was all just a nightmare. But, checking my phone, those hopes are shattered like a brick through a window every single time.)"
 		},
 		{
-			"character": "character-1681933194.json",
+			"character": "character-1681944906.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "\"Good morning <3\""
@@ -80,7 +88,7 @@
 			"question": "(What should I say?)"
 		},
 		{
-			"choice": "\"Good morning",
+			"choice": "\"Good morning\"",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -101,7 +109,7 @@
 			"text": "(Why did I say that? Now she’s gonna think I want her to keep doing it…)"
 		},
 		{
-			"character": "character-1681933194.json",
+			"character": "character-1681944906.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "\"Can’t wait to see you today! :D\""
@@ -128,7 +136,7 @@
 			"set_value": "0"
 		},
 		{
-			"character": "character-1681933194.json",
+			"character": "character-1681944906.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "\"You’re right, I’d rather talk to you in person! See you soon :3\""
@@ -155,7 +163,7 @@
 			"set_value": "1"
 		},
 		{
-			"character": "character-1681933194.json",
+			"character": "character-1681944906.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "\"Sorry, have I been with you too much? I’ll try to respect your space a little more :)\""

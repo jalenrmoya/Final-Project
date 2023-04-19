@@ -1,18 +1,22 @@
 {
 	"events": [
 		{
-			"background": "res://Assets/black-background.png",
+			"background": "res://Assets/Classroom.jpg",
 			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Assets/school_bell.wav",
+			"volume": -10
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "[School bell ringing]"
-		},
-		{
-			"background": "",
-			"event_id": "dialogic_021"
 		},
 		{
 			"animation": "[Default]",
@@ -157,7 +161,7 @@
 
 			],
 			"portrait": "",
-			"question": "What should I say?"
+			"question": "(What should I say?)"
 		},
 		{
 			"animation": "[Default]",
@@ -282,7 +286,7 @@
 
 			],
 			"portrait": "",
-			"question": "What do I say?"
+			"question": "(What do I say?)"
 		},
 		{
 			"choice": "\"Honestly, I forgot. I already have plans.\"",
@@ -441,7 +445,7 @@
 
 			],
 			"portrait": "",
-			"question": "What do I say about this?"
+			"question": "(What do I say about this?)"
 		},
 		{
 			"choice": "\"I kinda prefer the one I have now...\"",

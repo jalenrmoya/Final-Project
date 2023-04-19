@@ -5,10 +5,22 @@
 			"event_id": "dialogic_021"
 		},
 		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Assets/alarm_clock.wav",
+			"volume": -10
+		},
+		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "[ALARM CLOCK]"
+		},
+		{
+			"background": "res://Assets/Bedroom.jpg",
+			"event_id": "dialogic_021"
 		},
 		{
 			"animation": "[Default]",
@@ -49,7 +61,7 @@
 			"text": "(I opened the message, and didn’t know how to feel about what I read.)"
 		},
 		{
-			"character": "character-1681933194.json",
+			"character": "character-1681944906.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "\"Hey, we need to talk… meet me after school today.\""
