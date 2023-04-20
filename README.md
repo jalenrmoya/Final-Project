@@ -17,6 +17,7 @@ The game uses the Godot add-on Dialogic: https://dialogic.coppolaemilio.com/
 
 The game features a mechanic where the ending of the story will change based on the hidden "Love Score" of each dialogue choice the player makes.
 
+## References
 Music: "Relax" by Fulminisictus https://soundcloud.com/fulminisictus/sets/visual-novel-audio-pack
 
 Alarm Clock Sound Effect: Pixabay https://pixabay.com/sound-effects/alarm-clock-beep-close-perspective-7092/
@@ -24,9 +25,6 @@ Alarm Clock Sound Effect: Pixabay https://pixabay.com/sound-effects/alarm-clock-
 School Bell Sound Effect: Pixabay https://pixabay.com/sound-effects/about-the-schools-cevlpt-school-bell-33719/ 
 
 Backgrounds: UNCLE MUGEN'S FREE VN (OELVN) RESOURCES https://lemmasoft.renai.us/forums/viewtopic.php?f=52&t=17302 
-
-## References
-
 
 ## Future Development
 None
