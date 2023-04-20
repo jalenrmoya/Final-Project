@@ -10,7 +10,7 @@ The player's objective is to choose dialogue options that influence their path t
 To play, the player only needs to use the left mouse button to select buttons and dialogue options.
 
 ## Impediments
-Struggles or surprises you encountered during the development of the game
+Things honestly went shockingly smoothly. I can't think of any notable setbacks we had. Of course we would have liked to have been able to implement more sound effects, colored sprites, a longer story, etc. but we budgeted our time well with the 48 hours we had, I think.
 
 ## Implementation
 The game uses the Godot add-on Dialogic: https://dialogic.coppolaemilio.com/
