@@ -33,5 +33,7 @@ None
 
 # Created by: emag
 Jalen Moya - Programming and Implementation
+
 Drew Gerke - Writing and Asset Retrieval
+
 Theo Hawkins - Character Spritework
