@@ -5,7 +5,7 @@
 			"event_id": "dialogic_021"
 		},
 		{
-			"animation": "[Default]",
+			"animation": "slide_in_left.gd",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
@@ -15,7 +15,7 @@
 			"portrait": "Default",
 			"portrait_definition": "",
 			"position": {
-				"0": false,
+				"0": true,
 				"1": false,
 				"2": false,
 				"3": false,
@@ -31,7 +31,7 @@
 			"text": "(When I walked in, I heard Danny talking to someone in the other room before greeting me.)"
 		},
 		{
-			"animation": "[Default]",
+			"animation": "slide_in_right.gd",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
@@ -45,7 +45,7 @@
 				"1": false,
 				"2": false,
 				"3": false,
-				"4": false
+				"4": true
 			},
 			"type": 0,
 			"z_index": 0
@@ -111,7 +111,7 @@
 			"text": "(A few agonizing minutes later, she arrived, as if the universe existed to spite me. She gasped when she saw me.)"
 		},
 		{
-			"animation": "[Default]",
+			"animation": "bouncing_in.gd",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
@@ -123,7 +123,7 @@
 			"position": {
 				"0": false,
 				"1": false,
-				"2": false,
+				"2": true,
 				"3": false,
 				"4": false
 			},
@@ -151,7 +151,7 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Amelia_Sad",
 			"text": "Wait, you said you were going to be busy… You’re not even wearing the necklace I gave you! You’re… you’re…"
 		},
 		{
@@ -163,7 +163,7 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Amelia_Angry",
 			"text": "You’re CHEATING on me, aren’t you?"
 		},
 		{
@@ -175,13 +175,13 @@
 		{
 			"character": "character-1681933202.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Danny_Frown",
 			"text": "...With me?"
 		},
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Amelia_Angry",
 			"text": "Why else would you be so secretive? Explain yourself!"
 		},
 		{
@@ -211,13 +211,13 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Amelia_Angry",
 			"text": "I knew it!"
 		},
 		{
 			"character": "character-1681933202.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Danny_Frown",
 			"text": "No man, what? I don’t swing that way!"
 		},
 		{
@@ -244,7 +244,7 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Amelia_Angry",
 			"text": "Then what’s going on here? Explain yourself!"
 		},
 		{
@@ -265,7 +265,7 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Amelia_Angry",
 			"text": "...?"
 		},
 		{
@@ -277,13 +277,13 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Amelia_Sad",
 			"text": "…I mean, I am here to support you, but really? With HIM?"
 		},
 		{
 			"character": "character-1681933202.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Danny_Frown",
 			"text": "Ouch, dude. I’m still here, y’know."
 		},
 		{
@@ -310,7 +310,7 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "Trent… Thank you."
 		},
 		{
@@ -352,13 +352,13 @@
 		{
 			"character": "character-1681933202.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Danny_Frown",
 			"text": "Dude, what? You just got here like 15 minutes ago!"
 		},
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "Sorry Danny… I think he meant that WE should be going back to his place. It is Valentine’s Day after all."
 		},
 		{
@@ -421,7 +421,7 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Amelia_Sad",
 			"text": "Well..."
 		},
 		{
@@ -433,11 +433,11 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Amelia_Sad",
 			"text": "…I understand. If you need personal space, then I’ll let you have that."
 		},
 		{
-			"animation": "[Default]",
+			"animation": "bounce_out.gd",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
@@ -465,7 +465,7 @@
 		{
 			"character": "character-1681933202.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Danny_Frown",
 			"text": "…That’s cold, dude. You’d better go too."
 		},
 		{
@@ -477,7 +477,7 @@
 		{
 			"character": "character-1681933202.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Danny_Frown",
 			"text": "Probably best if you don’t, man."
 		},
 		{
@@ -487,7 +487,7 @@
 			"text": "Ugh… fine. She’s always ruining things for me."
 		},
 		{
-			"animation": "[Default]",
+			"animation": "bounce_out.gd",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
@@ -534,13 +534,13 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "Oh, um… of course! We can have a nice, chill evening between the three of us!"
 		},
 		{
 			"character": "character-1681933202.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "Nice!"
 		},
 		{
@@ -550,7 +550,7 @@
 			"text": "(I was kinda hoping it’d just be me and him… I’m in for a long, long evening.)"
 		},
 		{
-			"animation": "[Default]",
+			"animation": "5-fade_out_down.gd",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,

@@ -13,9 +13,13 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": ""
+			"path": "res://Assets/character/Kate.png"
+		},
+		{
+			"name": "Kate_Angry",
+			"path": "res://Assets/character/Kate_Angry.png"
 		}
 	],
-	"scale": 100,
+	"scale": 10,
 	"theme": ""
 }

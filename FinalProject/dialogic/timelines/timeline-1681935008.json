@@ -23,6 +23,26 @@
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "slide_in_right.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
 			"character": "character-1681933202.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
@@ -33,27 +53,7 @@
 				"1": false,
 				"2": false,
 				"3": false,
-				"4": false
-			},
-			"type": 0,
-			"z_index": 0
-		},
-		{
-			"animation": "[Default]",
-			"animation_length": 0,
-			"change_mirror_portrait": false,
-			"change_z_index": false,
-			"character": "character-1681932524.json",
-			"event_id": "dialogic_002",
-			"mirror_portrait": false,
-			"portrait": "Default",
-			"portrait_definition": "",
-			"position": {
-				"0": false,
-				"1": false,
-				"2": false,
-				"3": false,
-				"4": false
+				"4": true
 			},
 			"type": 0,
 			"z_index": 0
@@ -137,6 +137,26 @@
 			"text": "Aight bet. Seeya, man!"
 		},
 		{
+			"animation": "slide_out_right.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681933202.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
 			"character": "character-1681932524.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -155,16 +175,7 @@
 			"text": "(Oh God, Amelia is coming. I REALLY don’t want to have to put up with her right now…)"
 		},
 		{
-			"character": "character-1681932524.json",
-			"event_id": "dialogic_010",
-			"options": [
-
-			],
-			"portrait": "",
-			"question": "(What should I say?)"
-		},
-		{
-			"animation": "[Default]",
+			"animation": "slide_in_right.gd",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
@@ -178,10 +189,19 @@
 				"1": false,
 				"2": false,
 				"3": false,
-				"4": false
+				"4": true
 			},
 			"type": 0,
 			"z_index": 0
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "(What should I say?)"
 		},
 		{
 			"choice": "\"Please go away.\"",
@@ -201,7 +221,7 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Amelia_Sad",
 			"text": "Sorry, Are you busy? I won’t hold you for too long."
 		},
 		{
@@ -228,7 +248,7 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Amelia_Sad",
 			"text": "Sorry, do I bother you too much? I’ll… try to keep that in mind."
 		},
 		{
@@ -261,7 +281,7 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "Hiya, Trent! Good to see you!"
 		},
 		{
@@ -270,7 +290,7 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "So, I was just wondering if you wanted to do something with me today? It is Valentine’s Day, after all!"
 		},
 		{
@@ -306,7 +326,7 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Amelia_Sad",
 			"text": "Oh… well, that’s disappointing, but I understand. You’re a busy guy; whatever you’ve got planned is probably important. I appreciate your honesty. We can wait."
 		},
 		{
@@ -333,7 +353,7 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Amelia_Sad",
 			"text": "With… a friend?"
 		},
 		{
@@ -345,7 +365,7 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Amelia_Sad",
 			"text": "That’s… okay, sorry."
 		},
 		{
@@ -372,7 +392,7 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "Is that so? Oh, I completely understand! School always comes first, I respect that! We can totally do something together another time!"
 		},
 		{
@@ -399,7 +419,7 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "Well, for the occasion, I got you a gift!"
 		},
 		{
@@ -411,7 +431,7 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "Glad you think so! Here it is!"
 		},
 		{
@@ -429,7 +449,7 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "Of course! It’s all yours!"
 		},
 		{
@@ -465,7 +485,7 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "True, that necklace is iconic to your look… are you implying that I should wear it? You’re so sweet! But really, I insist, you should keep it."
 		},
 		{
@@ -492,7 +512,7 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Amelia_Sad",
 			"text": "O-of course! No problem!"
 		},
 		{
@@ -519,7 +539,7 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Amelia_Sad",
 			"text": "Trent and Amelia… I thought it was pretty obvious…"
 		},
 		{
@@ -534,7 +554,7 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "Anyways… please treasure it, it cost me a lot."
 		},
 		{
@@ -546,11 +566,11 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "I’ll be seeing you."
 		},
 		{
-			"animation": "[Default]",
+			"animation": "slide_out_right.gd",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
@@ -582,7 +602,7 @@
 			"text": "(After waiting long enough to know for sure that she’s gone, I got up to leave. But, as I approached the doorway, someone stepped in front of me.)"
 		},
 		{
-			"animation": "[Default]",
+			"animation": "slide_in_right.gd",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
@@ -596,7 +616,7 @@
 				"1": false,
 				"2": false,
 				"3": false,
-				"4": false
+				"4": true
 			},
 			"type": 0,
 			"z_index": 0
@@ -604,7 +624,7 @@
 		{
 			"character": "character-1681933200.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Kate_Angry",
 			"text": "Seriously, Trent!? What was THAT!?"
 		},
 		{
@@ -662,7 +682,7 @@
 			"text": "Ugh!"
 		},
 		{
-			"animation": "[Default]",
+			"animation": "slide_out_right.gd",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
@@ -688,14 +708,34 @@
 			"text": "(She scoffed at me, then stormed out of the room. If she wants to work herself up over nothing, then fine.)"
 		},
 		{
-			"background": "res://Assets/black-background.png",
-			"event_id": "dialogic_021"
-		},
-		{
 			"character": "character-1681932524.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "(I left the school, and drove myself down to Danny’s house.)"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://Assets/black-background.png",
+			"event_id": "dialogic_021"
 		},
 		{
 			"change_timeline": "timeline-1681937601.json",

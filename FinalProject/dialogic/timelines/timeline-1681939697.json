@@ -19,7 +19,7 @@
 			"event_id": "dialogic_021"
 		},
 		{
-			"animation": "[Default]",
+			"animation": "slide_in_left.gd",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
@@ -29,7 +29,7 @@
 			"portrait": "Default",
 			"portrait_definition": "",
 			"position": {
-				"0": false,
+				"0": true,
 				"1": false,
 				"2": false,
 				"3": false,
@@ -45,7 +45,7 @@
 			"text": "(After the school bell rang, I waited in my seat, knowing that Amelia would be coming. And, like a moth to a flame, she did.)"
 		},
 		{
-			"animation": "[Default]",
+			"animation": "slide_in_right.gd",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
@@ -59,7 +59,7 @@
 				"1": false,
 				"2": false,
 				"3": false,
-				"4": false
+				"4": true
 			},
 			"type": 0,
 			"z_index": 0
@@ -67,7 +67,7 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Amelia_Sad",
 			"text": "Hey, Trent…"
 		},
 		{
@@ -85,7 +85,7 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "It’s just that…"
 		},
 		{
@@ -97,7 +97,7 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "…I just wanted to remind you how much I love you."
 		},
 		{
@@ -143,7 +143,7 @@
 			"text": "Yeah… that’s all. I love you. Don’t forget that."
 		},
 		{
-			"animation": "[Default]",
+			"animation": "slide_out_right.gd",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
@@ -175,7 +175,7 @@
 			"text": "I’m gonna spend the rest of my life trying to forget…"
 		},
 		{
-			"animation": "[Default]",
+			"animation": "slide_in_right.gd",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
@@ -189,7 +189,7 @@
 				"1": false,
 				"2": false,
 				"3": false,
-				"4": false
+				"4": true
 			},
 			"type": 0,
 			"z_index": 0
@@ -203,7 +203,7 @@
 		{
 			"character": "character-1681933202.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "God, you’re so lucky, dude…"
 		},
 		{
@@ -213,7 +213,7 @@
 			"text": "I wish you could take her off my hands…"
 		},
 		{
-			"animation": "[Default]",
+			"animation": "5-fade_out_down.gd",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
@@ -254,7 +254,7 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Amelia_Angry",
 			"text": "…I’m SICK of you! No matter what I do, you’re always just such a jerk! You don’t care about me at all!"
 		},
 		{
@@ -272,7 +272,7 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Amelia_Angry",
 			"text": "Yeah, maybe for you! I’ve never felt more liberated!"
 		},
 		{
@@ -284,7 +284,7 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Amelia_Angry",
 			"text": "Besides, I’ve had my eyes on someone else for a long time anyways."
 		},
 		{
@@ -294,7 +294,7 @@
 			"text": "Huh?"
 		},
 		{
-			"animation": "[Default]",
+			"animation": "bouncing_in.gd",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
@@ -306,7 +306,7 @@
 			"position": {
 				"0": false,
 				"1": false,
-				"2": false,
+				"2": true,
 				"3": false,
 				"4": false
 			},
@@ -328,7 +328,7 @@
 		{
 			"character": "character-1681933200.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Kate_Angry",
 			"text": "Well that just goes to show how much you cared about her, doesn’t it?"
 		},
 		{
@@ -340,17 +340,17 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Amelia_Angry",
 			"text": "Goodbye, Trent. I never want to see you again."
 		},
 		{
 			"character": "character-1681933200.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Kate_Angry",
 			"text": "Rot in hell."
 		},
 		{
-			"animation": "[Default]",
+			"animation": "slide_out_right.gd",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
@@ -370,7 +370,7 @@
 			"z_index": 0
 		},
 		{
-			"animation": "[Default]",
+			"animation": "slide_out_right.gd",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
@@ -408,21 +408,21 @@
 			"text": "(Soon after, Danny entered, and he seemed to know most of what just went down.)"
 		},
 		{
-			"animation": "[Default]",
+			"animation": "slide_in_right.gd",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
 			"character": "character-1681933202.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "Default",
+			"portrait": "Danny_Frown",
 			"portrait_definition": "",
 			"position": {
 				"0": false,
 				"1": false,
 				"2": false,
 				"3": false,
-				"4": false
+				"4": true
 			},
 			"type": 0,
 			"z_index": 0
@@ -430,7 +430,7 @@
 		{
 			"character": "character-1681933202.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Danny_Frown",
 			"text": "It was inevitable, dude. Don’t get too bent out of shape about it."
 		},
 		{
@@ -440,7 +440,7 @@
 			"text": "Trust me Danny. This is the greatest day of my life."
 		},
 		{
-			"animation": "[Default]",
+			"animation": "4-fade_out.gd",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
@@ -487,7 +487,7 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Amelia_Sad",
 			"text": "Listen, I think that we should just be friends."
 		},
 		{
@@ -505,7 +505,7 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Amelia_Sad",
 			"text": "Yeah… I know that you must still want to be in a relationship. But I think it’s best that we see other people."
 		},
 		{
@@ -523,11 +523,11 @@
 		{
 			"character": "character-1681933194.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Amelia_Sad",
 			"text": "Thank you so much for understanding."
 		},
 		{
-			"animation": "[Default]",
+			"animation": "slide_out_right.gd",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
@@ -553,7 +553,7 @@
 			"text": "(She looked at me with a somewhat somber look in her eyes, then left the room. Soon after, Danny approached me, seemingly having seen the whole ordeal.)"
 		},
 		{
-			"animation": "[Default]",
+			"animation": "slide_in_right.gd",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
@@ -567,7 +567,7 @@
 				"1": false,
 				"2": false,
 				"3": false,
-				"4": false
+				"4": true
 			},
 			"type": 0,
 			"z_index": 0
@@ -587,7 +587,7 @@
 		{
 			"character": "character-1681933202.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Danny_Frown",
 			"text": "What?"
 		},
 		{
@@ -597,7 +597,7 @@
 			"text": "What?"
 		},
 		{
-			"animation": "[Default]",
+			"animation": "4-fade_out.gd",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,

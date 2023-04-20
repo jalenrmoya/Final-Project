@@ -23,7 +23,7 @@
 			"event_id": "dialogic_021"
 		},
 		{
-			"animation": "[Default]",
+			"animation": "slide_in_left.gd",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
@@ -33,7 +33,7 @@
 			"portrait": "Default",
 			"portrait_definition": "",
 			"position": {
-				"0": false,
+				"0": true,
 				"1": false,
 				"2": false,
 				"3": false,
@@ -196,7 +196,7 @@
 			"text": "(Well, I should probably get going now. Sigh…)"
 		},
 		{
-			"animation": "[Default]",
+			"animation": "slide_out_left.gd",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
